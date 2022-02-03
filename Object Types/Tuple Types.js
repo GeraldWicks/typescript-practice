@@ -1,0 +1,15 @@
+var myTuple = ["Gerald", 23];
+console.log(myTuple[0]);
+console.log(myTuple[1]);
+var firstName = myTuple[0], age = myTuple[1];
+console.log(firstName);
+console.log(age);
+var firstPoint = [1, 2];
+console.log(firstPoint);
+var secondPoint = [1, 2, 3];
+console.log(secondPoint);
+var anotherTuple = ["hey", 1, 2, 3];
+console.log(anotherTuple);
+var message = anotherTuple[0], numbers = anotherTuple.slice(1);
+console.log(message);
+console.log(numbers);
