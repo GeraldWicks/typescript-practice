@@ -1,0 +1,8 @@
+function getProperty(obj, key) {
+    console.log(obj[key]);
+    console.log(key);
+}
+var x = { a: 1, b: 2, c: 3, d: 4 };
+getProperty(x, "b");
+getProperty(x, "c");
+getProperty(x, "d");
